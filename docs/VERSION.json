@@ -1,0 +1,10 @@
+{
+  "app_version": "1.3.2",
+  "engine_version": "1.6.2",
+  "platform": "win-x64",
+  "distribution": "portable-onedir",
+  "dev_chain": "R/S",
+  "engine_scripts": 13,
+  "report_sheets": 13,
+  "default_llm_model": "deepseek-v4-flash"
+}

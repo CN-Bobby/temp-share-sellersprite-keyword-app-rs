@@ -63,4 +63,3 @@ python tools\build_exe.py
 - 外部客户端修改回合并时：提供修改后的项目文件夹/zip，`git diff` 基线 → 逐文件核对合入
 - `app/engine/` 为 skill v1.6.2 官方资产，合并不覆盖该目录（升级按 skill 发布包整体替换）
 - 密钥永不入库：`app` 运行时密钥存 Windows 凭据管理器；仓库内不得出现真实 key
-

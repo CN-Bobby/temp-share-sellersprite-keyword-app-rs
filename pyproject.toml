@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sellersprite-keyword-app"
+version = "1.0.0"
+description = "SellerSprite 关键词调研桌面应用（内置 skill v1.6.2 报告引擎）"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "Proprietary" }
+dependencies = [
+    "PySide6==6.11.2",
+    "mcp==2.1.1",
+    "httpx==0.28.1",
+    "httpx2==2.12.0",
+    "openpyxl==3.1.5",
+    "Send2Trash==2.1.0",
+    "pywin32==312; platform_system == 'Windows'",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=9",
+    "pyinstaller==6.22.2",
+]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+markers = [
+    "gui: GUI 冒烟测试（offscreen）",
+]

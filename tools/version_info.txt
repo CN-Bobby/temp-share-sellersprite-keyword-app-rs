@@ -1,0 +1,27 @@
+# UTF-8
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),
+    prodvers=(1, 0, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable('040904B0', [
+        StringStruct('CompanyName', 'SellerSpriteKeywordApp'),
+        StringStruct('FileDescription', 'SellerSprite 关键词调研'),
+        StringStruct('FileVersion', '1.0.0'),
+        StringStruct('InternalName', 'SellerSpriteKeywordApp'),
+        StringStruct('OriginalFilename', 'SellerSprite关键词调研.exe'),
+        StringStruct('ProductName', 'SellerSprite 关键词调研'),
+        StringStruct('ProductVersion', '1.0.0 / Engine 1.6.2')
+      ])
+    ]),
+    VarFileInfo([VarStruct('Translation', [1033, 1200])])
+  ]
+)
